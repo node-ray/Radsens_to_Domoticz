@@ -15,3 +15,5 @@ Arduino sketch (for ESP32 devices) based on [climateguard/RadSens](https://githu
 8. Then configure the MQTT server IP, username, and password (and optionally change the MQTT publish interval)
 9. Change DYNAMIC_IDX and STATIC_IDX to the IDX values for "custom sensor" virtual sensors created within Domoticz.
 10. Upload to the ESP32 device connected to the RadSens unit. If everything is configured correctly, the sensor readings should be displayed in Domoticz 
+
+Additional information can be found [here](https://www.node-ray.com/RadSens)
