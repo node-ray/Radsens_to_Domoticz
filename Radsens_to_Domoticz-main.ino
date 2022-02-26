@@ -152,7 +152,7 @@ void MQTT_domoticz(float cpm_dynamic, float cpm_static)
   //if for some reason MQTT is still disconnected, do not attempt MQTT communication
   if (mqtt.connect() == 0) {
     //check if MQTT timer is ready, and also make sure the sensor isn't reading a 0 value which could happen if there is a bug 
-    if (mqttTimer.isReady() & cpm_dynamic != 0) { 
+    if (mqttTimer.isReady() & cpm_dynamic != 0 & cpm_static != 0) { 
 
 
           Serial.println("\nPublishing to MQTT");
