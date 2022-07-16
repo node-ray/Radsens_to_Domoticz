@@ -5,7 +5,7 @@ Arduino sketch (for ESP32 devices) based on [climateguard/RadSens](https://githu
 
 # Usage
 
-1. Download and extract the zip file
+1. Clone the repository or download and extract the zip file for the repository
 2. Open Radsens_to_Domoticz-main.ino in [Arduino IDE](https://www.arduino.cc/en/software)
 3. Add the URL https://dl.espressif.com/dl/package_esp32_index.json to the list of board managers under **File -> Preferences** to add support for ESP32
 4. Install the Adafruit MQTT library and the SimpleTimer library from **Tools -> Library Manager**
